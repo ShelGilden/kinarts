@@ -5,9 +5,139 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FAFAD2;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* menu */
+.menu {
+  display:inline-block;
+  font-size:1.5em;
+  color:gold;
+  margin: 2%;
+}
+/* first page */
+.HomePage {
+  font-size:3em;
+  color:gold;
+  text-align:center;
+  vertical-align: center;
+  margin: 15%;
+  background-color: #FAFAD2;
+}
+
+.StartButton {
+  font-size:.5em;
+  border: 4px solid gold;
+  border-radius: 25px;
+  padding: 5%;
+  margin: 10%;
+  color:orange;
+  background-color: khaki;
+}
+
+/* intro */
+.PictureFace {
+  border: 7px solid gold;
+  border-radius: 25px;
+  padding: 5%;
+  margin: 10%;
+  margin-top: 0%;
+  color:orange;
+  background-color: khaki;
+}
+
+/* .Picture {
+  display: inline-block;
+  padding: 5%;
+  min-width: 240px;
+} */
+
+.PictureContent{
+  display:inline-block;
+  border: 4px solid gold;
+  border-radius: 25px;
+  color:orange;
+  background-color: khaki;
+  padding: 5%;
+  font-size: 2em;
+}
+
+/* product */
+.ProductPage {
+  border: 7px solid gold;
+  border-radius: 25px;
+  padding: 5%;
+  margin: 10%;
+  margin-top: 0%;
+  color:orange;
+  background-color: khaki;
+}
+
+.ProductFace {
+  border: 7px solid gold;
+  border-radius: 25px;
+  padding: 5%;
+  margin: 10%;
+  margin-top: 0%;
+  color:orange;
+  background-color: khaki;
+}
+
+.ProductPicture {
+  display: inline-block;
+  padding: 5%;
+  min-width: 240px;
+  border-radius: 25px;
+}
+
+.Picture {
+  /* display: inline-block;
+  padding: 5%;
+  min-width: 240px; */
+  border-radius: 25px;
+}
+
+.ProductContent{
+  display:inline-block;
+  border: 4px solid gold;
+  border-radius: 25px;
+  color:orange;
+  background-color: khaki;
+  padding: 5%;
+  font-size: 2em;
+  margin:2%;
+}
+
+.ProductButton {
+  font-size:1.3em;
+  border: 4px solid gold;
+  border-radius: 25px;
+  padding: 3%;
+  color:orange;
+  background-color: khaki;
+  display:inline;
+  margin:5%;
+  margin-top:0%; 
+  vertical-align: top;
+}
+
+/* Color 	HTML / CSS
+    Color Name 	Hex Code
+    #RRGGBB 	Decimal Code (R,G,B)
+  	lightgoldenrodyellow 	#FAFAD2 	rgb(250,250,210)
+  	palegoldenrod 	      #EEE8AA 	rgb(238,232,170)
+  	khaki 	              #F0E68C 	rgb(240,230,140)
+  	goldenrod 	          #DAA520 	rgb(218,165,32)
+  	gold 	                #FFD700 	rgb(255,215,0)
+  	orange 	              #FFA500 	rgb(255,165,0)
+  	darkorange 	          #FF8C00 	rgb(255,140,0)
+  	peru 	                #CD853F 	rgb(205,133,63)
+  	chocolate 	          #D2691E 	rgb(210,105,30)
+  	saddlebrown 	        #8B4513 	rgb(139,69,19)
+  	sienna 	              #A0522D 	rgb(160,82,45)
+*/
